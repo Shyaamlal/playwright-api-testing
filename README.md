@@ -39,6 +39,14 @@ npx playwright test
 
 ---
 
+## AI-Assisted Workflow
+
+Tests were drafted with Claude Code as a pair programming partner — generating request bodies, assertion logic, and the auth-token flow. Each test was then run locally, debugged against the live API, and verified before commit.
+
+The principle (same across all portfolio repos): **AI supports the workflow. Humans own the outcome.**
+
+---
+
 ## Context
 
 This project is the API testing layer of a broader AI-assisted test automation portfolio. The E2E layer lives in [playwright-ai-assisted-testing](https://github.com/Shyaamlal/playwright-ai-assisted-testing).
